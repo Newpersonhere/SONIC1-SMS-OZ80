@@ -2326,7 +2326,7 @@ PARAMS  IY`vars         ``Address of the common variables (used throughout)
         bit     4   [IY`vars+#vars.scrollRingFlags]
         call    nz  :autoscrollUp
         
-        ;no down scrolling (ala Jungle 2)
+        ;no scrolling down? (ala Jungle 2)
         bit     7   [IY`vars+#vars.scrollRingFlags]
         call    nz  :dontScrollDown
         
